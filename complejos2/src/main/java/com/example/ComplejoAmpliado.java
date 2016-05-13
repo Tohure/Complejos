@@ -5,9 +5,9 @@ public class ComplejoAmpliado extends Complejito{
 
     private boolean esReal;
 
-    public ComplejoAmpliado(double re, double im, boolean esReal) {
+    public ComplejoAmpliado(double re, double im) {
         super(re, im);
-        esReal = im == 0;
+        this.esReal = im == 0;
     }
 
     @Override
