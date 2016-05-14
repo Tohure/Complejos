@@ -14,7 +14,5 @@ public class Principal {
                 System.out.println("  esReal=" + ((ComplejoAmpliado) aLista).esReal());
             }
         }
-
-
     }
 }
